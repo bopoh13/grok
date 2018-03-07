@@ -1,7 +1,8 @@
-﻿---
+---
 lang: en-us
 layout: page
 permalink: /minima/
+#redirect_to: https://github.com/jekyll/jekyll/tree/master/docs
 robots: noindex, nofollow
 title: Minima theme
 ---
@@ -19,5 +20,3 @@ You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll/jekyll)
 
 [jekyll-organization]://github.com/jekyll
-
-#

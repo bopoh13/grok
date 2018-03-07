@@ -13,27 +13,47 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#encoding: bom|utf-8
 title: GROK
+author: bopoh13
 #email: bopoh13@ya
-description: >- # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/grok" # the subpath of your site, e.g. /blog
 url: "https://bopoh13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: none
-#github_username: bopoh13
+github_username: bopoh13
 
 # Build settings
-markdown: >- # Jekyll 3 now only supports Kramdown for Markdown
-  kramdown
-timezone: Europe/Moscow
+markdown: kramdown # Jekyll 3 now only supports Kramdown for Markdown
 
+timezone: Europe/Moscow
+#destination: _site # directory with collected static site
 theme: minima
+#relative_permalinks: false # use relative paths
+
+#permalink: /:categories/:title/ # path to post in the format
+
+#future: false # don't publish posts with a date from the future
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
-# Exclude from processing.
+# Exclude these files from your production '_site'
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:

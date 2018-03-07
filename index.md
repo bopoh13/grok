@@ -1,8 +1,6 @@
-﻿---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+---
+# Dynamically rendering arbitrary HTML on your website can be very dangerous 
+# because it can easily lead to XSS vulnerabilities. Only use HTML interpolation 
+# on trusted content and never on user-provided content.
 layout: home
 ---
-
-<h1>Main page</h1>
