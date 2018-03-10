@@ -3,7 +3,7 @@ layout: post
 lang: ru-ru
 title: "Характеристики аккумуляторов 18650"
 description: "Краткие характеристики литий-ионных аккумуляторов типоразмера 18650."
-date: 2017-03-10 23:55:00 +03:00
+date: 2018-03-10 23:55:00 +03:00
 redirect_from: /post/10090/
 categories: charger
 author: bopoh13
