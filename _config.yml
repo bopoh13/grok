@@ -29,6 +29,7 @@ github_username: bopoh13
 # Build settings
 markdown: kramdown # Jekyll 3 now only supports Kramdown for Markdown
 
+lang: ru
 timezone: Europe/Moscow
 #destination: _site # directory with collected static site
 theme: minima

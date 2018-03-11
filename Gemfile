@@ -11,8 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.7.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-# https://github.com/jekyll/minima/issues/188
-gem "minima", "~> 2.1.1"
+gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
