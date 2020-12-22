@@ -16,8 +16,8 @@
 
 # For the work in GitHub on Windows with transferring files to a remote 
 # repository in UTF-8 without BOM
-*.html filter=win1251
+*.html
 *.jpg  -text diff
-*.md   filter=win1251
+*.md
 *.png  -text diff
 *.svg  whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
